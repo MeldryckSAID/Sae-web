@@ -6,19 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil</title>
     <link rel="stylesheet" href="src/css/style.css">
+	<script src="src/asset/fonction.js"></script>
+	
 </head>
 <body>
 <div class="i">
     <header>
         <img class="ih" src="img/logo.svg" alt="logo">
-        <img class="menu" src="img/menub.svg" alt="menu blanc">
+
+        <img onclick="console.log('ok'); bascule('menu_item');" class="menu" src="img/menub.svg" alt="menu blanc">
+        <nav>
+            <ul class='menu_item' style="display: none;">
+
+                    <li class="menu__item"><a class="menu__link" href="12years.html">Film</a></li>
+                    <li class="menu__item"><a class="menu__link" href="mcqueen.html">Réalisateur de 12 Years a Slave </a></li>
+                    <li class="menu__item"><a class="menu__link" href="livre.html">Le livre </a></li>
+                    <li class="menu__item"><a class="menu__link" href="formulaire.html">Contact </a></li>
+                    <li class="menu__item"><a class="menu__link" href="autre.html">Vous aimerez peut-être </a></li>
+                   
+            </ul>
+           
         <h1 class="hh1">L’ESCLAVAGE<br>AUX ETATS-UNIS</h1>
         <p class="hp">No more slave nowadays</p>
         <h4 class="hh4">“JE NE VEUX PAS SURVIVRE,JE VEUX VIVRE”</h4>
         
     </header>
     <main>
-    <img src="img/video.webp" alt="">
+    <img src="img/video.webp" alt="video">
     <h3> L’esclavage noir a été une grande partie de l’histoire
         américaine. Divisant les hommes elle occupa une
         position économique dans le pays.
