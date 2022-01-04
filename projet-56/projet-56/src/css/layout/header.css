@@ -1,0 +1,26 @@
+header{
+    background-color:var(--marron-sombre);
+    color: var(--blanc);
+padding-bottom: 1px;
+}
+
+.hp{
+    margin-left: 7.563rem;
+    font-family: var(--tma);
+    font-size: 12px;
+}
+.hh1
+{
+ font-family:var(--titre );
+ font-size: var(--manjari--titre);
+ margin-left: 5.125rem
+}
+.ih{
+    margin-left: 7.75rem;
+}
+.hh4{
+    margin-left: 1.75rem ;
+    font-family: var(--tma);
+    font-size: var(--fjalla--one-sous-titre);
+    font-weight: normal;
+}

@@ -1,0 +1,33 @@
+:root{
+    /* Color styles */
+--marron-sombre: rgba(67, 55, 43, 1);
+--gris-léger: rgba(201, 196, 191, 1);
+--blanc: rgba(251, 251, 251, 1);
+--blanc-mate: rgba(242, 241, 240, 1);
+--creme: rgba(233, 227, 223, 1);
+--marron-clair: rgba(152, 105, 80, 1);
+--noir: rgba(0, 0, 0, 1);
+--marron: rgba(140, 89, 70, 1);
+--marron-creme: rgba(217, 198, 191, 1);
+--marron-transi: rgba(115, 101, 90, 1);
+--background: rgba(242, 238, 235, 1);
+
+/* Text-size styles */
+--manjari--titre: 25px;
+--fjalla--one-sous-titre: 16px;
+--fjalla--one-texte: 14px;
+--manjari-texte: 14px;
+--gras: 14px;
+--fin: 14px;
+
+/* font-family  */
+
+   /*Font-family styles*/
+   --titre:'Manjari';
+   --sous-titre:'Fjalla One';
+   --tfj:'Fjalla One';
+   --tma:'Manjari';
+   --gras:'Manjari' ;
+   --fin:'Manjari';
+
+}

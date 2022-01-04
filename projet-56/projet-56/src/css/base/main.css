@@ -1,0 +1,71 @@
+*,
+*::before,
+*::after
+ {
+  box-sizing: border-box;
+}
+body
+ {
+  
+  line-height: 1.6;
+  background-color: var(--background);
+  
+}
+
+p{
+    font-family: var(--tma);
+    font-size: var(--manjari-texte);
+    margin-left: 30px;
+}
+
+.rh4
+{
+  font-family: var(--tfj);
+  font-size: var(--fjalla--one-sous-titre);
+  font-weight: normal;
+  color: var(--marron-clair);
+}
+h3{
+    font-family: var(--tfj);
+    font-size: 17px;
+    margin: 10px;
+}
+
+.resume{
+    background-color: var(--creme);
+    margin-top: 12px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    justify-content: flex-start ;
+    position: relative;
+
+}
+.ire{
+    border-radius: 100%;
+    z-index:1;
+}
+.sur{
+    
+    position: absolute;
+    left: 27%;
+    top: 10%;
+    z-index: 2;
+    max-width: 100%;
+    height:auto;
+}
+.isur{
+    
+    position: absolute;
+    right:  20%;
+    top: 10%;
+    z-index: 2;
+}
+.iree{
+    border-radius: 100%;
+    z-index:1;
+    flex-direction:end ;
+    position: relative;
+    left: 200px;
+    top: 20px;
+}

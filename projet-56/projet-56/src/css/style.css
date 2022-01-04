@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Manjari:wght@100;400;700&display=swap');
+
+/* Vendors */
+@import url("vendors/normalize.css");
+
+/* Utils */
+@import url("utils/variable.css");
+
+/* Base */
+@import url("base/main.css");
+@import url("base/media.css");
+
+
+
+/* componants */
+
+
+
+/* layout */
+
+@import url("layout/header.css");
+@import url("layout/menu.css");
+@import url("layout/footer.css");
