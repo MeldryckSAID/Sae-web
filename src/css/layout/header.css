@@ -1,7 +1,7 @@
 header{
     background-color:var(--marron-sombre);
     color: var(--blanc);
-padding-bottom: 1px;
+    padding-bottom: 1px;
 }
 
 .hp{
@@ -97,3 +97,34 @@ padding-bottom: 1px;
     background-repeat: no-repeat;
     height: 200px;
 }
+
+header.light
+{
+    background-color:var(--background);
+    color: var(--noir);
+    padding-bottom: 80px;
+}
+
+.hclair h1{
+    color: var(--noir);
+    position: absolute;
+    width: 180px;
+    height: 210px;
+    left: 112px;
+    top: 115px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+}
+   
+ 
+  .hcp{
+    color: var(--noir);
+    position: absolute;
+    width: 165px;
+    height: 14px;
+    left: 102px;
+    top: 86px;
+    font-style: normal;
+    font-weight: bold;
+  }
