@@ -3,10 +3,12 @@ footer{
     color: var(--marron-creme);
     margin-top: 12px;   
     padding-top: 20px;
+    display: flex;
     justify-content: flex-start;
-    position: relative;
+    
 }
 .hf{
+    right: 30%;
     z-index: 1;
 }
 .ifoo{
