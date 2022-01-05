@@ -4,11 +4,10 @@
 	row-gap: 0px;									
 	column-gap: 0px;								
 	grid-auto-rows: minmax(180px, auto);
-    width: 140px;
-    height: auto;
+    width: 288px;
+    height: 370px;
     margin-left:120px ;
     background-color: var(--marron);
-
     grid-column: 2;
 	grid-row: 2; 
 	position: relative;
@@ -16,7 +15,10 @@
    
 }
 
-
+.f_lm img{
+    width: 288px;
+	height: 370px;
+}
 
 
 .f_lm {

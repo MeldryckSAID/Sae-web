@@ -26,8 +26,8 @@ function carrousel3Images() {
 
     anim153.add({
         targets: fi_lm,
-        translateX: [{value: '300', duration: d},
-                     {value: '-300', duration: 0, delay: function(img,ind) {
+        translateX: [{value: '288', duration: d},
+                     {value: '-288', duration: 0, delay: function(img,ind) {
                          if (ind == 0) return (2*delta)+d;
                          if (ind == 1) return delta;
                          return 0;
