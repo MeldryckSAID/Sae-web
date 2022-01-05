@@ -1,10 +1,24 @@
 footer{
     background: linear-gradient(rgba(67, 55, 43, 1), rgba(0, 0, 0, 1));
     color: var(--marron-creme);
-    flex-direction: row;
+    margin-top: 12px;
+    padding-top: 20px;
+    justify-content: flex-start;
+    position: relative;
 }
-
+.hf{
+    z-index: 1;
+}
 .ifoo{
-    max-width: 50%;
-    height:auto ;
+    z-index: 2;
+    border-radius: 100%;
+}
+.foo{
+   
+    margin-top: 12px;
+    
+    padding-top: 20px;
+    justify-content: flex-start ;
+    position: relative;
+
 }

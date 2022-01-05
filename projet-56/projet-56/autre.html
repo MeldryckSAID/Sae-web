@@ -5,13 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Autre</title>
+    <link rel="stylesheet" href="src/css/style.css">
+	<script src="src/asset/fonction.js"></script>
 </head>
 <body>
 <div class="au">
     <header>
-        <img src="img/logop.webp" alt="logo">
+        <a  href="index.html"><img src="img/logo.svg" alt="Logo du site web"> </a>
         <p>No more slave nowadays</p>
         <h1>L’ESCLAVAGE<br>AUX ETATS-UNIS</h1>
+
+        <div class="nav-toogle"  onclick="document.documentElement.classList.toggle('menu-open')">
+            <div class="nav-toogle-bar"></div>
+          </div>
+
+
+  <nav class="menu">
+      <p  class="menu__titre" >L’ESCLAVAGE<br>AUX ETATS-UNIS</p>
+      <img class="menu__logo" src="img/logo.svg" alt="logo menu">
+      <p class="menup">No more slave nowadays</p>
+          <ul>
+                  <li class="menu__item"><a class="menu__link1" href="12years.html">Film</a></li>
+                  <li class="menu__item"><a class="menu__link2" href="mcqueen.html">Réalisateur de 12 Years a Slave </a></li>
+                  <li class="menu__item"><a class="menu__link3" href="livre.html">Le livre </a></li>
+                  <li class="menu__item"><a class="menu__link4" href="formulaire.html">Contact </a></li>
+                  <li class="menu__item"><a class="menu__link5" href="autre.html">Vous aimerez peut-être </a></li>
+                  
+          </ul>
+         
+     </nav> 
     </header>
     <main>
         <h3>
@@ -65,7 +87,7 @@
             exercice pédagogique au département MMI
             de Montbéliard 
         </h3>
-        <img src="img/logo mmi 1 blanc.png" alt="logo du département">
+        <img class="ifoo" src="img/logo mmi 1 blanc.png" alt="logo du département">
     </footer>
 
 
