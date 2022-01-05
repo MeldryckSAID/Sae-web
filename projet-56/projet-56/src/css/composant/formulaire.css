@@ -1,0 +1,48 @@
+
+.section {
+    margin-bottom: 40px;
+    
+}
+
+
+
+.label {
+    font-family: var(--tfj);
+    font-size: var(--fjalla--one-texte);
+    color: var(--marron-clair);
+    margin-left: 5%;
+    margin-bottom: 5%;
+    
+    
+}
+
+.input {
+    background-color: var(--marron-clair);
+    border: none;
+    height: 40px;
+    width: 300px;
+    margin-left: 10%;
+    color: var(--blanc);
+}
+
+.input_2 {
+    background-color: var(--marron-clair);
+    border: none;
+    height: 248px;
+    width: 280px;
+    margin-left: 10%;
+    color: var(--blanc);
+}
+
+
+.bouton_envoyer {
+    display: block;
+    font-family: var(--tma);
+    font-size: var(--manjari-texte);
+    background-color: var(--background);
+    border-color: var(--noir);
+    height: 46px;
+    width: 72px;
+    margin: auto;
+    margin-bottom: 46px;
+}
