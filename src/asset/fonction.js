@@ -45,28 +45,29 @@ function carrousel3Images() {
     });
 }
 
-function monterLegende() {
-    document.querySelector('.texte_js').style.display = 'block';
+function monterLegende(c) {
+
+    let texte13 = document.querySelector("."+c);
+    texte13.style.display = "block";
     return anime({
-        targets: '.texte_js',
+        targets: "."+c,
         translateY: '-5em',
         autoplay: false,
-        easing: 'radial',
+        easing: 'linear',      
         duration: 200
-    }).play;
+    }).play
 
 }
 
-function descendreLegende() {
-    document.querySelector('.texte_js').style.display = 'none';
+function descendreLegende(c) {
+    let txt1 = document.querySelector("."+c);
+    txt1.style.display = "none";
     return anime({
-        targets: '.texte_js',
+        targets: "."+c,
         translateY: '0',
         autoplay: false,
-        easing: 'radial',
-        duration: 2000
-
-
-    }).play;
+        easing: 'linear',      
+        duration: 200
+    }).play
 
 }
