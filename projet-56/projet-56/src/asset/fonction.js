@@ -12,7 +12,7 @@ function bascule(cla) {
 
 function carrousel3Images() {
     var fi_lm = document.querySelectorAll('.fi_lm');
-    let d = 2500;
+    let d = 2000;
     let delta = 1000;
 
     fi_lm.forEach(function(img,indice) {
@@ -26,8 +26,8 @@ function carrousel3Images() {
 
     anim153.add({
         targets: fi_lm,
-        translateX: [{value: '180', duration: d},
-                     {value: '-180', duration: 0, delay: function(img,ind) {
+        translateX: [{value: '300', duration: d},
+                     {value: '-300', duration: 0, delay: function(img,ind) {
                          if (ind == 0) return (2*delta)+d;
                          if (ind == 1) return delta;
                          return 0;
@@ -40,7 +40,7 @@ function carrousel3Images() {
         delay: function(img,ind) {
             if (ind == 0) return delta;
             if (ind == 1) return (2*delta)+d;
-            return (3*delta)+(1*d);
+            return (3*delta)+(2*d);
         }
     });
 }
