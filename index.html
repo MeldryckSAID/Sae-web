@@ -7,6 +7,9 @@
     <title>Accueil</title>
     <link rel="stylesheet" href="src/css/style.css">
 	<script src="src/asset/fonction.js"></script>
+    <script src="https://unpkg.com/alpinejs@3.2.2/dist/cdn.min.js"></script>
+	<script src="https://animejs.com/lib/anime.min.js"></script>
+    
 	
 </head>
 <body>
@@ -45,7 +48,22 @@
         
     </header>
     <main>
-    <img src="img/video.webp" alt="video">
+
+        <div x-data="{ img1: true, img2: false }">
+            <img id="video" src="img/video.webp"alt="video"
+                width="auto"
+                x-show="img1"
+                x-ref="video"
+                x-transition.in
+                x-on:click="img1=false; img2=true;"/>
+
+            <img id="maison" src="img/maiso.webp" alt="maison de raciste des anné 1955"
+             width="auto"
+                x-show="img2"
+                x-ref="maison"
+                x-transition.in
+                x-on:click="img1=true; img2=false;"/>
+
     <h3> L’esclavage noir a été une grande partie de l’histoire
         américaine. Divisant les hommes elle occupa une
         position économique dans le pays.
