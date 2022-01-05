@@ -18,11 +18,8 @@ p{
     margin-left:10px ;
     width: 354px;
 }
-.gras{
-    font-style: normal;
-    font-weight: bold;
-}
-.fin{
+
+.ct{
     font-style: normal;
     font-weight: lighter;
 }
@@ -44,6 +41,20 @@ p{
     color: var(--marron-clair);
     
 }
+.lien{
+    position: absolute;
+    width: 375px;
+    height: 50px;
+    background-color: var(--marron-clair);
+    color: var(--blanc);
+    font-weight: 100;
+    font-size: 17px;
+    font-family: var(--tma);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .rh4
 {
